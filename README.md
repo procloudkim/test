@@ -42,11 +42,10 @@ flowchart TB
 
   ALBa --> WebA
   ALBc --> WebC
-
   WebA --> RDSa
   WebC --> RDSc
 
-  %% Egress and private connectivity
+  %% egress and private connectivity
   WebA --> NATa
   WebC --> NATc
   WebA --> S3EP
