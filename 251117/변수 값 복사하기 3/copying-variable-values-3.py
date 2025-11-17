@@ -5,4 +5,5 @@ c = 3
 a = a+c
 b = b-c
 
-print (a & b)
+print a
+print b
