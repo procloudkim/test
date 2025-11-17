@@ -2,8 +2,10 @@ a = 1
 b = 5
 c = 3
 
-a = a+c
-b = b-c
+a = a + c
+b = b - c
 
-print a
-print b
+print (a)
+print (b)
+print (c)
+
