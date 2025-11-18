@@ -1,6 +1,6 @@
 a = 1
 b = 2
 c = C
-print(a, end=", ")
-print(b, end=", ")
+
+print(f"{a},{b},{c}",sep="->")
 print(c)
