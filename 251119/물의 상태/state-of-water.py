@@ -1,8 +1,8 @@
 n = int(input())
 
-if 100 > n >= 0:
-    print("water")
-elif n >  100:
-    print("vapor")
-else :
+if n < 0:
     print("ice")
+elif n >= 100:
+    print("vapor")
+else:
+    print("water")
